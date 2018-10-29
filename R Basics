@@ -1,0 +1,14 @@
+```R
+# 1. 建立一個4 x 5 的matrix
+x = matrix(1:20,nrow = 4, ncol = 5,byrow = TRUE)
+x
+
+# 2. 查x的維度
+dim(x)
+
+# 3. 計算每行之平均數
+mean(x[,1]); mean(x[,2]); mean(x[,3]); mean(x[,4]); mean(x[,5])
+
+# 4. 找出第三行，第四列的元素
+x[4,3]
+```

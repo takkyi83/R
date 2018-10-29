@@ -11,4 +11,12 @@ mean(x[,1]); mean(x[,2]); mean(x[,3]); mean(x[,4]); mean(x[,5])
 
 # 4. 找出第三行，第四列的元素
 x[4,3]
+
+# 5.
+gender =c('F','M','F','M','M','M','M','M','M','F','M','M','M','F','M','M','M','F','F','F')
+grade =c(90,80,70,80,90,80,70,80,90,80,70,80,90,80,70,80,90,80,70,80)
+head.index=1+(grade > mean(grade))
+newcodes=c("H","M","L")
+headsize=newcodes[head.index]
+headtable = table(gender,grade)
 ```

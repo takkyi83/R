@@ -44,7 +44,7 @@ summary(glm)
 #OR
 exp(coef(glm))
 #答: Never smoked的or是0.69, 表從來沒抽菸的人的死亡率為now smoking的0.69倍
-  #smoked in the past的or是0.97, 表過去抽菸的人的死亡率為now smoking的0.69倍
+  #smoked in the past的or是0.97, 表過去抽菸的人的死亡率為now smoking的0.97倍
 
 
 #-------------------------------------------------------3. 在多變項迴歸，請解釋抽菸對復發之影響

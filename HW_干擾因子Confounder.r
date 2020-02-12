@@ -17,7 +17,7 @@ lung = na.omit(lung)
 # 方法:檢定OR在有性別和無性別下的差異大小
 # 統計方法: logistic regression
 #　y: vital status
-# H0: 性別不適干擾因子 OR = 1
+# H0: 性別不適干擾因子 Odds Ratio (OR) = 1
 
 #不加入性別  x: smoking
 attach(lung)

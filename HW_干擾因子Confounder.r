@@ -25,7 +25,7 @@ glm <- glm(Vital.Status ~ SMOKING, family=binomial(link="logit"),data=lung)
 summary(glm)
 #OR
 exp(coef(glm))
-# 信賴區間 CI
+# 信賴區間 confidence intervals (CI)
 exp(confint(glm))  # include 1, fail to reject H0
 
 #加入性別  x: smoking, gender
